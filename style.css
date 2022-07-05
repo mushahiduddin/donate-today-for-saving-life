@@ -1,14 +1,69 @@
 body{
-    
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .section{
     height: 750px;
     width: 100%;
-    background-color: red;
-    margin-bottom: 10px;
+    margin-bottom: 80px;   
 }
 .section-footer{
     height: 250px;
     width: 100%;
     background-color: black;
+}
+
+#section1-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 750px;
+    width: 100%;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+}
+    
+#section1-div1:hover{ 
+    opacity: 1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.div1-common-width{
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+
+span{
+    color: orange;
+}
+
+#section1-h1{
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 79px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#section1-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.button{
+    padding:20px 30px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    font-weight: 400px;
+    font-size: 24px;
+    color: white;
 }
