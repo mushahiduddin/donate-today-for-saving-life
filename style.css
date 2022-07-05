@@ -1,0 +1,14 @@
+body{
+    
+}
+.section{
+    height: 750px;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.section-footer{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+}
