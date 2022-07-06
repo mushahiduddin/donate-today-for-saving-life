@@ -5,16 +5,12 @@ body {
     margin: 0px 0px;
 }
 
+/* common class----------------------------------------------------------- */
+
 .section {
     height: 750px;
     width: 100%;
     
-}
-
-.section-footer {
-    height: 250px;
-    width: 100%;
-    background-color: black;
 }
 
 .flexible {
@@ -25,6 +21,32 @@ body {
     height: 750px;
     width: 100%;
 }
+
+.common-heading {
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 54.46px;
+    font-style: normal;
+    color: #121212;
+}
+
+.common-paragraph {
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
+    font-weight: 400px;
+}
+
+.common-width {
+    width: 60%;
+    text-align: center;
+}
+
+span {
+    color: orange;
+}
+
+/* Section-1----------------------------------------------------------- */
 
 #section1-div1 {
     background-image: url(images/donation13.jpg);
@@ -39,15 +61,6 @@ body {
     opacity: 1;
     filter: blur(0px);
     -webkit-filter: blur(0px);
-}
-
-.common-width {
-    width: 60%;
-    text-align: center;
-}
-
-span {
-    color: orange;
 }
 
 #section1-h1 {
@@ -75,20 +88,7 @@ span {
     color: white;
 }
 
-.common-heading {
-    font-size: 45px;
-    font-weight: bolder;
-    line-height: 54.46px;
-    font-style: normal;
-    color: #121212;
-}
-
-.common-paragraph {
-    text-align: center;
-    font-size: 18px;
-    color: #707070;
-    font-weight: 400px;
-}
+/* Section-2----------------------------------------------------------- */
 
 .section2 {
     background-color: white;
@@ -139,6 +139,8 @@ span {
     ;
 }
 
+/* Section-3----------------------------------------------------------- */
+
 #card{
     display: flex;
     width: 80%;
@@ -176,6 +178,8 @@ span {
     font-weight: 400px;
 }
 
+/* Section-4----------------------------------------------------------- */
+
 #company-heading{
     color: #121212;
 }
@@ -194,6 +198,8 @@ span {
     margin: 20px 30px;
     padding: 20px 40px;
 }
+
+/* Section-5----------------------------------------------------------- */
 
 #email-div{
     display: flex;
@@ -223,4 +229,31 @@ span {
 
 #email-part-id{
     margin-top: -100px;
+}
+
+/* footer-part */
+
+.section-footer {
+    height: 200px;
+    width: 100%;
+    background-color: #0B0D17;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2{
+    color: #FF5959;;
+    font-family: 'Lobster', cursive;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+footer h6{
+    color: white;
+    margin-top: -5px;
 }
